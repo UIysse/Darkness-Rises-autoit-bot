@@ -1,0 +1,164 @@
+File Open
+################ Start MainFarm function
+################ Enter FarmRanked function
+Start searching for ranked.png
+we found ranked.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmRanked function
+Start searching for changecharacter1.png
+we found changecharacter1.png
+Switching to character 1
+Start searching for changecharacter2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+did not find changecharacter2.png
+################ Enter FarmRanked function
+Start searching for ranked.png
+we found ranked.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmRanked function
+Start searching for changecharacter1.png
+we found changecharacter1.png
+Switching to character 2
+Start searching for changecharacter2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+did not find changecharacter2.png
+################ Enter FarmRanked function
+Start searching for ranked.png
+we found ranked.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmRanked function
+Start searching for changecharacter1.png
+we found changecharacter1.png
+Switching to character 3
+Start searching for changecharacter2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+did not find changecharacter2.png
+################ Enter FarmRanked function
+Start searching for ranked.png
+we found ranked.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for raidstart.png
+we found raidstart.png
+we found rankedGoLobby.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmRanked function
+Start searching for changecharacter1.png
+we found changecharacter1.png
+Start searching for changecharacter2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+Start searching for closepub1.png
+did not find closepub2.png
+did not find changecharacter2.png
+!!!!!!!!!!!!!!!! End MainFarm function
