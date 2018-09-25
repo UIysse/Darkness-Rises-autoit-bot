@@ -10,7 +10,13 @@ Global Const $_Skill2 = 0x06
 Global Const $_Skill3 = 0x04
 Global Const $_SKillUlt = 0x05
 Global Const $_AutoAtk = 0x05
-;NakedSearchImgAndClick("ll")
+Func SearchImgAndClickNearby ($sString, $Xvalue, $Yvalue)
+   Local $Ximg, $Yimg
+_ImageSearch ("coop.png", 1, $Ximg, $Yimg, 75)
+   $Ximg = $Ximg - $Xvalue
+   $Yimg = $Yimg - $Yvalue
+   MouseClick( "left", $Ximg, $Yimg, 1)
+EndFunc
 Func SearchImgAndClick ($sString) ; chercher image et click dessus ; 10 sec sans trouver quitte la fonction
    FileWriteLine($hFileOpen, "Start searching for " & $sString)
    Local $Inf3 = 0
