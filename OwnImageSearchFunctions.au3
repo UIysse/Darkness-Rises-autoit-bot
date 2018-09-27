@@ -12,7 +12,21 @@ Global Const $_SKillUlt = 0x05
 Global Const $_AutoAtk = 0x05
 Func SearchImgAndClickNearby ($sString, $Xvalue, $Yvalue)
    Local $Ximg, $Yimg
-_ImageSearch ("coop.png", 1, $Ximg, $Yimg, 75)
+      Local $Inf3 = 0
+   Local $perso = 0
+   Local $Xperso, $Yperso, $perso1, $perso2, $test
+   $ImageSearchTolerance = 0
+      While $perso = 0 And $Inf3 <40 ; 10 sec waiting because long loading can get fucked up by too low timing and mess whole loop
+		 $Inf3 += 1
+		 Sleep(250)
+ 		 $perso = _ImageSearch ("coop.png", 1, $Ximg, $Yimg, $ImageSearchTolerance)
+		 If $ImageSearchTolerance < 95 Then
+		 $ImageSearchTolerance += 5
+		 EndIf
+		 If $Inf3 > 32 Then
+			PubSearchImgAndClick ($sString)
+		 EndIf
+   WEnd
    $Ximg = $Ximg - $Xvalue
    $Yimg = $Yimg - $Yvalue
    MouseClick( "left", $Ximg, $Yimg, 1)

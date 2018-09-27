@@ -9,9 +9,7 @@ Func FarmRanked ()
 FileWriteLine($hFileOpen, "################ Enter FarmRanked function")
 Local $FinRaid = 0
 Local $Ximg, $Yimg
-_ImageSearch ("coop.png", 1, $Ximg, $Yimg, 75)
-   $Ximg = $Ximg - 125
-   MouseClick( "left", $Ximg, $Yimg, 1)
+SearchImgAndClickNearby("coop.png", 125, 0)
 SearchImgAndClick ('ranked.png')
 Sleep (2500)
 ;FileWriteLine($hFileOpen, "Cherche le paytostart")

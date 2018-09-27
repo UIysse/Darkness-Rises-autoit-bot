@@ -8,6 +8,7 @@
 #include <ButtonConstants.au3>
 #include <DR raids.au3>
 #include <DR ranked.au3>
+#include <DR timer.au3>
 #include <ChangeCharacter.au3>
 ; To do : auto buy guild instant tickets / auto donate to guild. Daily dungeon. Daily wheel of fate
 Global $hFileOpen = OpenMyFile() ; ugly global definition but somehow all other files can see it without including this main script file #shitcodinglanguage
@@ -21,6 +22,7 @@ Global $bDoRanked = 0
 RunMyGui()
 
 Func MainFarm ()
+  ; TimerFunction(0)
    Local $CharacterNumber = 0
    FileWriteLine($hFileOpen, "################ Start MainFarm function")
    While $CharacterNumber < 4
@@ -59,10 +61,11 @@ EndFunc   ;==>_IsChecked
 Func RunMyGui()
     ; Create a GUI with various controls.
 	;GUICreate ( "title" [, width [, height [, left = -1 [, top = -1 [, style = -1 [, exStyle = -1 [, parent = 0]]]]]]] )
-    Local $hGUI = GUICreate("NUlysse", 190, 230, 0, 0)
+    Local $hGUI = GUICreate("NUlysse", 190, 260, 0, 0)
 	;GUICtrlCreateButton ( "text", left, top [, width [, height [, style = -1 [, exStyle = -1]]]] )
 	;Start Farm button ; Note : Default Style
-    Local $idStartFarm = GUICtrlCreateButton("Start Farm", 60, 190, 85, 25)
+	$Edit1a = GUICtrlCreateEdit("Timer", 30, 190, 150, 25)
+    Local $idStartFarm = GUICtrlCreateButton("Start Farm", 60, 230, 85, 25)
 	;Checkboxes ; Note : style = 0x02
     Local $idDuoDungeons = GUICtrlCreateCheckbox("Duo Dungeons", 30, 10, 150, 25)
 	Local $idGoldDungeons = GUICtrlCreateCheckbox("Gold Dungeons", 30, 35, 150, 25)
