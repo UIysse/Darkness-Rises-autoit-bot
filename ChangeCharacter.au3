@@ -37,6 +37,9 @@ Func ChangeCharacter ( $CharNumber)
 		 Case 3
 						FileWriteLine($hFileOpen, "Switching to character " & $CharNumber)
 			MouseClick( "left", $Xperso + 330, $Yperso, 1)
+		 Case 4
+						FileWriteLine($hFileOpen, "Switching to character " & $CharNumber)
+			MouseClick( "left", $Xperso + 440, $Yperso, 1)
 		 EndSwitch
 		 SearchImgAndClick ('changecharacter2.png')
 		 return 1

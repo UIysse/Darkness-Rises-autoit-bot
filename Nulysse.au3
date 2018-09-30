@@ -1,4 +1,6 @@
 #requireadmin
+#include <GuiConstants.au3>
+#include <GuiEdit.au3>
 #include <MyFile.au3>
 #include <DR duo dungeons.au3>
 #include <DR gold dungeons.au3>
@@ -19,10 +21,12 @@ Global $bDoInfinityTower = 0
 Global $bDoDailyDungeon = 0
 Global $bDoAllCharacters = 0
 Global $bDoRanked = 0
+Global $EditBox;
 RunMyGui()
 
 Func MainFarm ()
-  ; TimerFunction(0)
+   $TimeToWait = _GUICtrlEdit_GetLine($EditBox, 0)
+   TimerFunction($TimeToWait)
    Local $CharacterNumber = 0
    FileWriteLine($hFileOpen, "################ Start MainFarm function")
    While $CharacterNumber < 4
@@ -64,7 +68,8 @@ Func RunMyGui()
     Local $hGUI = GUICreate("NUlysse", 190, 260, 0, 0)
 	;GUICtrlCreateButton ( "text", left, top [, width [, height [, style = -1 [, exStyle = -1]]]] )
 	;Start Farm button ; Note : Default Style
-	$Edit1a = GUICtrlCreateEdit("Timer", 30, 190, 150, 25)
+	$EditBox = GUICtrlCreateEdit("Timer", 30, 190, 150, 25, $ES_MULTILINE+$ES_AUTOVSCROLL+$WS_VSCROLL )
+	;_GUICtrlEdit_InsertText ($EditBox, "Minutes", 0)
     Local $idStartFarm = GUICtrlCreateButton("Start Farm", 60, 230, 85, 25)
 	;Checkboxes ; Note : style = 0x02
     Local $idDuoDungeons = GUICtrlCreateCheckbox("Duo Dungeons", 30, 10, 150, 25)
@@ -82,6 +87,8 @@ Func RunMyGui()
         Switch GUIGetMsg()
             Case $GUI_EVENT_CLOSE ;##
                 ExitLoop
+			 Case $EditBox ;##
+
 			 Case $idDuoDungeons ;##
 			   If _IsChecked($idDuoDungeons) Then
                 $bDoDuoDungeons = 1

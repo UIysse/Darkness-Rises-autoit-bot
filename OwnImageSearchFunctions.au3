@@ -150,10 +150,6 @@ Send("{z down}")
 Sleep(2000)
 Send("{z up}")
 Send("{SPACE}")
-Sleep (4000)
-Send("{z down}")
-Sleep(3000)
-Send("{z up}")
 Local $i = 0
 $Inf3 = 0
 $perso = 0
@@ -162,9 +158,9 @@ $perso = 0
 		    Send("{NUMPADENTER}")
 			   Send ($_SKill2)
 			      Send($_SKill1)
-		 Sleep(250)
+		 Sleep(25)
 		 $perso = _ImageSearch($sString2, 1, $Xperso, $Yperso, 50)
-		 If $Inf3 <120 Then; 30s loop iteration spent here we stop spamming autoatk to prevent gui interference to future img detection // change me later
+		 If $Inf3 <1200 Then; 30s loop iteration spent here we stop spamming autoatk to prevent gui interference to future img detection // change me later
 		 Send($_AutoAtk)
 		 EndIf
 	  WEnd
