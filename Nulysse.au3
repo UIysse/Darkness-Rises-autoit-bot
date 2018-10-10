@@ -53,6 +53,9 @@ If $bDoAllCharacters = 0 Then
    $CharacterNumber = 4
 Else
 ChangeCharacter($CharacterNumber)
+If $CharacterNumber = 4 Then ; added after to loop farm 09.10.18
+   $CharacterNumber = 0
+EndIf
 EndIf
 WEnd
 FileWriteLine($hFileOpen, "!!!!!!!!!!!!!!!! End MainFarm function")
