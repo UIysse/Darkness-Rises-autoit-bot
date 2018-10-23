@@ -55,6 +55,10 @@ Else
 ChangeCharacter($CharacterNumber)
 If $CharacterNumber = 4 Then ; added after to loop farm 09.10.18
    $CharacterNumber = 0
+   ;The following disable daily stuff after first loop on all character
+   $bDoDailyDungeon = 0;
+   $bDoGoldDungeons = 0;
+   $bDoInfinityTower= 0;
 EndIf
 EndIf
 WEnd

@@ -23,13 +23,51 @@ Func SearchImgAndClickNearby ($sString, $Xvalue, $Yvalue)
 		 If $ImageSearchTolerance < 95 Then
 		 $ImageSearchTolerance += 5
 		 EndIf
-		 If $Inf3 > 32 Then
-			PubSearchImgAndClick ($sString)
-		 EndIf
    WEnd
    $Ximg = $Ximg - $Xvalue
    $Yimg = $Yimg - $Yvalue
    MouseClick( "left", $Ximg, $Yimg, 1)
+EndFunc
+Func SearchImgAndClickIterations ($sString, $iterations) ; chercher image et click dessus ; 10 sec sans trouver quitte la fonction
+   FileWriteLine($hFileOpen, "Start searching for " & $sString)
+   Local $Inf3 = 0
+   Local $perso = 0
+   Local $Xperso, $Yperso, $perso1, $perso2, $test
+   $ImageSearchTolerance = 0
+   While $perso = 0 And $Inf3 < $iterations ; 10 sec waiting because long loading can get fucked up by too low timing and mess whole loop
+		 $Inf3 += 1
+		 Sleep(250)
+ 		 $perso = _ImageSearch($sString, 1, $Xperso, $Yperso, $ImageSearchTolerance)
+		 If $ImageSearchTolerance < 95 Then
+		 $ImageSearchTolerance += 5
+		 EndIf
+		 If $perso = 0 Then
+			If $sString = "cannotrestartgolddungeon.png" Then
+			   $perso1 = _ImageSearch("cannotrestartgolddungeon1.png", 1, $Xperso, $Yperso, $ImageSearchTolerance)
+			   $perso2 = _ImageSearch("cannotrestartgolddungeon2.png", 1, $Xperso, $Yperso, $ImageSearchTolerance)
+			   $test = $perso1 + $perso2
+			   If $test = 1 Then
+				  Return 0;Ok so if we see 1 instead of 0 remaining run, we act like we did not find 0 so we return 0, this is done to win time and not search 0 run for 5 min
+			   EndIf
+			EndIf
+		 EndIf
+   WEnd
+   If $perso = 1 Then
+	  If $sString = "duopaytostart.png" Then
+		 	  			FileWriteLine($hFileOpen, "we found " & $sString)
+				return 1
+	  Else
+	  MouseClick( "left", $Xperso, $Yperso, 1)
+	  			FileWriteLine($hFileOpen, "we found " & $sString)
+				return 1
+	  EndIf
+   ElseIf $perso = 0 Then
+			FileWriteLine($hFileOpen, "did not find " & $sString)
+			return 0
+   Else
+			FileWriteLine($hFileOpen, "you should never see this line")
+			return 0
+   EndIf
 EndFunc
 Func SearchImgAndClick ($sString) ; chercher image et click dessus ; 10 sec sans trouver quitte la fonction
    FileWriteLine($hFileOpen, "Start searching for " & $sString)
@@ -53,9 +91,6 @@ Func SearchImgAndClick ($sString) ; chercher image et click dessus ; 10 sec sans
 				  Return 0;Ok so if we see 1 instead of 0 remaining run, we act like we did not find 0 so we return 0, this is done to win time and not search 0 run for 5 min
 			   EndIf
 			EndIf
-		 EndIf
-		 If $Inf3 > 32 Then
-			PubSearchImgAndClick ($sString)
 		 EndIf
    WEnd
    If $perso = 1 Then

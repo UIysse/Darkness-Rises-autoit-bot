@@ -89,7 +89,13 @@ If $FinRaid = 0 Then
 		 MouseClick ("left")
 		 MouseClick ("left")
 		 MouseClick ("left")
-		 Sleep (8000)
+		 Do
+			FileWriteLine($hFileOpen, "inside new raid loop check click")
+			;$var1 = _ImageSearch("paytostart.png",1 ,$Ximg, $Yimg, 75) ;image search normal, returns ?
+			$var1 = _ImageSearch("raidcreerungroupe.png",1 ,$Ximg, $Yimg, 75) ;SearchImgAndClick('joincoopraid.png')
+			MouseClick ("left")
+			Sleep(1000)
+		 Until $var1 = 1
 	  Else
 		 FileWriteLine($hFileOpen, "A trouvé paytostart, sort du raid")
 	  EndIf

@@ -16,6 +16,7 @@ Sleep (2500)
 $FinRaid = _ImageSearch("rankedpaytostart.png",1 ,$Ximg, $Yimg, 75)
 If $FinRaid = 0 Then
       Do ;No while loop otherwise takes 5 sec to search cannotrestart whereas we always wanna start this routine
+		 FileWriteLine($hFileOpen, "ranked loop")
 	  ;$FinRaid = _ImageSearch("paytostart.png",1 ,$Ximg, $Yimg, 75)
   ; FileWriteLine($hFileOpen, "paytostart pas trouvé")
 		local $sucessimg = _ImageSearchArea('rankedChoseEnnemy.png', 1, 1466,889, 1723,934, $Ximg, $Yimg, 75)

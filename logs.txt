@@ -2,183 +2,273 @@ File Open
 ################ Enter Timer function
 !!!!!!!!!!!!!!!!! Leave Timer function
 ################ Start MainFarm function
-################ Enter FarmRaid function
+################ Enter FarmDuo function
 Start searching for coop.png
 we found coop.png
-Start searching for raid.png
-we found raid.png
-Cherche le paytostart
-paytostart pas trouvé
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-A trouvé paytostart, sort du raid
+Start searching for coop2.png
+we found coop2.png
+Start searching for duopaytostart.png
+we found duopaytostart.png
+duopaytostart trouvé
 Start searching for changefarmsection.png
 we found changefarmsection.png
-!!!!!!!!!!!!!!!!! Leave FarmRaid function
+!!!!!!!!!!!!!!!!! Leave FarmDuo function
+################ Enter FarmGoldDungeon function
+Start searching for pve.png
+we found pve.png
+Start searching for golddungeon.png
+we found golddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
+we found golddungeonrestart.png
+Start searching for cannotrestartgolddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
+we found golddungeonrestart.png
+Start searching for cannotrestartgolddungeon.png
+we found cannotrestartgolddungeon.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmGoldDungeon function
+################ Enter FarmInfinityTower function
+Start searching for pve.png
+we found pve.png
+Start searching for infinity.png
+we found infinity.png
+Tower not done
+Start searching for instantclear.png
+we found instantclear.png
+Start searching for instantclear2.png
+we found instantclear2.png
+Start searching for instantclearok.png
+we found instantclearok.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmInfinityTower function
 Start searching for changecharacter1.png
 we found changecharacter1.png
 Switching to character 1
 Start searching for changecharacter2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
 did not find changecharacter2.png
-################ Enter FarmRaid function
+################ Enter FarmDuo function
 Start searching for coop.png
 we found coop.png
-Start searching for raid.png
-we found raid.png
-Cherche le paytostart
-paytostart pas trouvé
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-A trouvé paytostart, sort du raid
+Start searching for coop2.png
+we found coop2.png
+Start searching for duopaytostart.png
+did not find duopaytostart.png
+duopaytostart pas trouvé
+Start searching for joincoop.png
+we found joincoop.png
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+we found cannotrestart.png
+$SimpleVariable value is 1
 Start searching for changefarmsection.png
 we found changefarmsection.png
-!!!!!!!!!!!!!!!!! Leave FarmRaid function
+!!!!!!!!!!!!!!!!! Leave FarmDuo function
+################ Enter FarmGoldDungeon function
+Start searching for pve.png
+we found pve.png
+Start searching for golddungeon.png
+we found golddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
+we found golddungeonrestart.png
+Start searching for cannotrestartgolddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
+we found golddungeonrestart.png
+Start searching for cannotrestartgolddungeon.png
+we found cannotrestartgolddungeon.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmGoldDungeon function
+################ Enter FarmInfinityTower function
+Start searching for pve.png
+we found pve.png
+Start searching for infinity.png
+we found infinity.png
+Tower not done
+Start searching for instantclear.png
+we found instantclear.png
+Start searching for instantclear2.png
+we found instantclear2.png
+Start searching for instantclearok.png
+we found instantclearok.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmInfinityTower function
 Start searching for changecharacter1.png
 we found changecharacter1.png
 Switching to character 2
 Start searching for changecharacter2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
-Start searching for closepub1.png
-did not find closepub2.png
 did not find changecharacter2.png
-################ Enter FarmRaid function
+################ Enter FarmDuo function
 Start searching for coop.png
 we found coop.png
-Start searching for raid.png
-we found raid.png
-Cherche le paytostart
-paytostart pas trouvé
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-N'a pas trouvé cannot restart, recommence le raid
-Start searching for joincoopraid.png
-we found joincoopraid.png
-Start searching for raidstartsolo.png
-we found raidstartsolo.png
-Start searching for raidstart.png
-we found raidstart.png
-we found raidrestart.png
-A trouvé paytostart, sort du raid
+Start searching for coop2.png
+we found coop2.png
+Start searching for duopaytostart.png
+did not find duopaytostart.png
+duopaytostart pas trouvé
+Start searching for joincoop.png
+we found joincoop.png
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+we found cannotrestart.png
+$SimpleVariable value is 1
 Start searching for changefarmsection.png
 we found changefarmsection.png
-!!!!!!!!!!!!!!!!! Leave FarmRaid function
+!!!!!!!!!!!!!!!!! Leave FarmDuo function
+################ Enter FarmGoldDungeon function
+Start searching for pve.png
+we found pve.png
+Start searching for golddungeon.png
+we found golddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
+we found golddungeonrestart.png
+Start searching for cannotrestartgolddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
+we found golddungeonrestart.png
+Start searching for cannotrestartgolddungeon.png
+we found cannotrestartgolddungeon.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmGoldDungeon function
+################ Enter FarmInfinityTower function
+Start searching for pve.png
+we found pve.png
+Start searching for infinity.png
+we found infinity.png
+Tower not done
+Start searching for instantclear.png
+we found instantclear.png
+Start searching for instantclear2.png
+we found instantclear2.png
+Start searching for instantclearok.png
+we found instantclearok.png
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmInfinityTower function
 Start searching for changecharacter1.png
 we found changecharacter1.png
 Switching to character 3
 Start searching for changecharacter2.png
 we found changecharacter2.png
-################ Enter FarmRaid function
+################ Enter FarmDuo function
 Start searching for coop.png
 we found coop.png
-Start searching for raid.png
-we found raid.png
-Cherche le paytostart
-paytostart pas trouvé
+Start searching for coop2.png
+we found coop2.png
+Start searching for duopaytostart.png
+did not find duopaytostart.png
+duopaytostart pas trouvé
+Start searching for joincoop.png
+we found joincoop.png
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+did not find cannotrestart.png
+$SimpleVariable value is 0
+Start searching for restartduo.png
+we found restartduo.png
+Start searching for cannotrestart.png
+we found cannotrestart.png
+$SimpleVariable value is 1
+Start searching for changefarmsection.png
+we found changefarmsection.png
+!!!!!!!!!!!!!!!!! Leave FarmDuo function
+################ Enter FarmGoldDungeon function
+Start searching for pve.png
+we found pve.png
+Start searching for golddungeon.png
+we found golddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
+we found golddungeonrestart.png
+Start searching for cannotrestartgolddungeon.png
+Start searching for begingolddungeon.png
+we found begingolddungeon.png
+Start searching for golddungeonrestart.png
